@@ -1,0 +1,48 @@
+Dictionary
+_____________________
+dict.update({dictionary})
+dict.get('key')
+dict.pop('key')
+dict.keys()
+dict.values()
+dict.items()-Pairs
+---------------------------------
+Object Identity(is)- Values of same id are whether same objects in Memory
+
+No Switch Case statment systems in Python Reason: if elif else are pretty clean to configure
+
+False Values in conditional statements:
+-False
+-None
+-Zero  of any numeric type
+-any empty sequence-'',(),[]
+-any empty mapping-{}
+-------------------------------------
+for i in range(10):0 to 9
+for i in range(1,11): 1 to 10
+------------------------------------
+File Objects
+f=open('test.txt','r')
+f.name=File's Name
+f.mode=r/w/a- Opening modes
+f.closed=Whether f closed or not
+Always close file
+
+with open('test.txt','r') as f: -->Context Managers
+This allow us to use the file within a block and automatically closes the file once we are 
+out of the block also closes file if any exceptions or error occurs
+
+read()-Reads whole file
+readlines()-Returns a list of lines with a end of new line character at every line
+readline()-Returns a single line
+f.tell()-Position of read function
+f.seek(0)- Sets position again to reset/any location we like
+
+We can also use seek in write
+
+Inorder to use file operation for pictures we need to open in binary mode -rb/wb
+
+
+python -m pip install --upgrade pip	
+
+
